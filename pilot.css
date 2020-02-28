@@ -4,4 +4,30 @@
 
 body {
     font-size: 62.5%;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	background-color: #ececec;
+}
+
+.left {
+}
+
+.right {
+	display: flex;
+}
+
+form {
+	padding: 6px;
+}
+
+a {
+	display: block;
+	padding: 10px;
 }
