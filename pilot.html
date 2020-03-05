@@ -2,61 +2,71 @@
 <html>
 <head>
 	<title>PILOT SHOP</title>
+	<link rel="Stylesheet" type="text/css" href="reset.css" media="screen"/>
 	<link rel="Stylesheet" type="text/css" href="pilot.css" media="screen"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://kit.fontawesome.com/04669a820c.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
-	<nav class="nav">
-		<div class="left">
-			<a href="#Number">+800-2345-6789</a>
-		</div>
-		<div class="right">
-			<a href="#Account">MY ACCOUNT</a>
-			<a href="#Wishlist">WISHLIST</a>
-			<a href="#Checkout">CHECKOUT</a>
-			<a href="#Currency">USD</a>
-			<a href="#Cart">CART</a>
-			<form>
-				<input type="text" placeholder="Search">
-				<input type="submit" value="Search">
-			</form>
+	<nav>
+		<div class="nav">
+			<div class="left">
+				<a class= "top-anchors" href="#Number"><strong>+800-2345-6789</strong></a>
+			</div>
+			<div class="right">
+				<a class= "top-anchors" href="#Account">MY ACCOUNT</a>
+				<a class= "top-anchors" href="#Wishlist">WISHLIST</a>
+				<a class= "top-anchors" href="#Checkout">CHECKOUT</a>
+				<div class="border-usd-cart">
+					<a class= "top-anchors usd" href="#Currency">USD <i class="fas fa-chevron-down"></i></a>
+					<a class= "top-anchors cart" href="#Cart"><i class="fas fa-shopping-basket"></i> CART</a>
+				</div>
+				<form>
+					<input class="search-bar" type="text" placeholder="SEARCH STORE">
+					<button class="top-anchors search-button" type="submit"><i class="fas fa-search"></i></button>
+				</form>
+			</div>
 		</div>
 	</nav>
-	
-	<div class="container">
-		<img src="https://cdn.shopify.com/s/files/1/1634/8185/t/2/assets/logo.png?v=17687249275084709482" alt="Pilot Logo">
-		<a href="#Home">HOME</a>
-		<a href="#Products">PRODUCTS</a>
-		<a href="#Blog">BLOG</a>
-		<a href="#Sale">SALE</a>
-		<a href="#AboutUs">ABOUT US</a>
-		<a href="#ContactUs">CONTACT US</a>
+	<div class="bar">
+		<div class="container nav2">
+			<div>
+				<img src="https://cdn.shopify.com/s/files/1/1634/8185/t/2/assets/logo.png?v=17687249275084709482" alt="Pilot Logo" height="43px" width="306px">
+			</div>
+			<div class="anchors">
+				<a href="#Home">HOME</a>
+				<a href="#Products">PRODUCTS</a>
+				<a href="#Blog">BLOG</a>
+				<a href="#Sale">SALE</a>
+				<a href="#AboutUs">ABOUT US</a>
+				<a href="#ContactUs">CONTACT US</a>
+			</div>
+		</div>
 	</div>
-	
-	<section>
+	<section class="background">
 		<div>
-			<h1>- A WIDE RANGE -</h1>
-			<p>OF AVIATION PRODUCTS AND PILOT SUPPLIES</p>
-			<button type="submit">SHOP NOW!</button>
-			<div class="container">
-				<div>
+			<div class="information">
+				<h1>- A WIDE RANGE -</h1>
+				<p class="para1">OF AVIATION PRODUCTS AND PILOT SUPPLIES</p>
+				<button class="center-button" type="submit">SHOP NOW!</button>
+			</div>
+			<div class="container boxes">
+				<div class="box1">
 					<h3>HOT HEADSETS</h3>
-					<p>THE BEST OFFERS</p>
+					<p class="box-para">THE BEST OFFERS</p>
 				</div>
-				<div>
+				<div class="box2">
 					<h3>ONLY THE BEST</h3>
-					<p>FLYING TUTORIALS</p>
+					<p class="box-para">FLYING TUTORIALS</p>
 				</div>
-				<div>
+				<div class="box3">
 					<h3>PORTABLE GPS</h3>
-					<p>THE HIGHEST QUALITY</p>
+					<p class="box-para">THE HIGHEST QUALITY</p>
 				</div>
 			</div>
 		</div>
 	</section>
-	
-	<main>
+	<main class="featured-products">
 		<h2>FEATURED PRODUCTS</h2>
 		<section class="container">
 			<div>
@@ -112,5 +122,4 @@
 		</section>
 	</main>
 </body>
-
 </html>
